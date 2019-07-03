@@ -1,0 +1,41 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+/* -------------------
+//          View
+// -------------------- */
+
+// /* Card */
+// @border: 1px solid rgb(232, 232, 232);
+@borderRadius: 1.5px;
+@boxShadow: 1px 1px 3px 0 rgba(63, 63, 68, 0.15), 0 0 0 1px rgba(63, 63, 68, 0.05)
+// // @boxShadow: 1px 1px 2px 0 rgba(22, 29, 37, 0.18);
+
+
+/* -------------------
+       Content
+-------------------- */
+
+/* Content */
+// @internalBorderColor: #EDEDEE;
+@contentPadding: 14px 20px;
+
+/* Metadata */
+@metaColor: #A5A7AA;
+
+
+/* -------------------
+      Variations
+-------------------- */
+
+/* Link */
+@linkHoverRaiseDistance: 10px;
+@linkHoverBoxShadow: none;
+// @linkHoverBorder: 1px solid #D0D0D8;
+
+/* Raised */
+@raisedShadow: 1px 1px 3px 0 rgba(63, 63, 68, 0.3), 0 0 0 1px rgba(63, 63, 68, 0.1)
+
+
+@coloredShadowDistance: 0;

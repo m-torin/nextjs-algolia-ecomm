@@ -1,0 +1,46 @@
+/*******************************
+         Site Overrides
+*******************************/
+@import '../custom.less';
+
+.ui.menu.topnav .item.dropdown {
+  .menu {
+    min-width: 170px;
+
+    .item:hover,
+    .item:focus {
+      background-color: @_lightGreyBlue !important;
+    }
+  }
+
+  &.search {
+    border-radius: 0;
+    min-width: 140px;
+
+    input {
+      margin-top: 15px;
+    }
+
+    .dropdown.icon {
+      margin-top: 14px;
+    }
+  }
+}
+
+.ui.menu.topnav .item.dropdown,
+.ui.menu.topnav .item.menuItemOnly {
+  font-weight: 600 !important;
+
+  &:hover,
+  &:focus {
+    background: @_midBlue !important;
+    box-shadow: inset 7px 0 9px -7px rgba(0, 0, 0, 0.7), inset -4px 0 9px -7px rgba(0, 0, 0, 0.7);
+    color: @white;
+    transition: 0s;
+  }
+}
+
+.ui.menu.topnav .item.instantsearch {
+  padding: 0 !important;
+}
+

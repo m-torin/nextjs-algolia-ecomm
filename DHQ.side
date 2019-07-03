@@ -1,0 +1,68 @@
+{
+  "id": "061da64f-8861-4903-9510-dabefca0cc79",
+  "version": "2.0",
+  "name": "DHQ",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "9e40e2d9-338d-4247-a487-8153470df436",
+    "name": "google test",
+    "commands": [{
+      "id": "3b996cfa-f3a3-48b1-928c-6fdebc1b5e20",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8041e264-b813-4804-8df9-9606704303df",
+      "comment": "",
+      "command": "//setWindowSize",
+      "target": "1106x942",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7cb9f900-bb86-4b78-90a6-bed78104fc9a",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "dog"
+    }, {
+      "id": "60f14520-d309-44fd-abac-9e9b748026e8",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnK",
+      "targets": [
+        ["name=btnK", "name"],
+        ["css=center:nth-child(2) > .gNO89b", "css:finder"],
+        ["xpath=//input[@name='btnK']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div[2]/div[2]/div[2]/center/input", "xpath:idRelative"],
+        ["xpath=//center/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34b57c2d-44de-433c-ae8a-4db5b0c0f250",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "dog - Google Search",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "eb702c57-0b17-4609-b0e7-b3206de62629",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9e40e2d9-338d-4247-a487-8153470df436"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

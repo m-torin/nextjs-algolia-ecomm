@@ -1,0 +1,13 @@
+/*******************************
+         Site Overrides
+*******************************/
+@import '../custom.less';
+
+.ui.input:hover input,
+.ui.input:focus input {
+  border: 2px solid @_fieldBorderFocusColor !important;
+}
+
+.ui.input input:focus {
+  border-color: @_altBlue !important;
+}

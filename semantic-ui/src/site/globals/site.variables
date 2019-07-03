@@ -1,0 +1,72 @@
+/*******************************
+     User Global Variables
+*******************************/
+@import '../custom.less';
+
+/* -------------------
+       Fonts
+-------------------- */
+
+@_systemFontFamily: -apple-system, BlinkMacSystemFont, San Francisco, Roboto, Segoe UI, Helvetica Neue, sans-serif;
+@headerFont: @_systemFontFamily;
+@pageFont: @_systemFontFamily;
+
+
+/* --------------
+  Page Heading
+--------------- */
+@_h1FontSize: 42px;
+@_h2FontSize: 28px;
+@_h3FontSize: 26px;
+@_h4FontSize: 20px;
+@_h5FontSize: 14px;
+
+@headerFontWeight: 400;
+
+@h1 : unit((@_h1FontSize / 14), rem);
+
+@h2 : unit((@_h2FontSize / 14), rem);
+
+@h3 : unit((@_h3FontSize / 14), rem);
+
+@h4 : unit((@_h4FontSize / 14), rem);
+
+@h5 : unit((@_h5FontSize / 14), rem);
+
+
+/* -------------------
+        Page
+-------------------- */
+@pageBackground: @_pageBackground;
+@linkColor: @_fixtBlue;
+
+
+/* --------------
+   Form Input
+--------------- */
+
+/* This adjusts the default form input across all elements */
+@inputbackground : red;
+
+/* Input Text Color */
+@inputColor: @_textColor;
+
+/* -------------------
+    Focused Input
+-------------------- */
+
+/* Used on inputs, textarea etc */
+@focusedFormBorderColor: @_fixtBlue;
+
+/* Used on dropdowns, other larger blocks */
+@focusedFormMutedBorderColor: lighten(@_fixtBlue, 15);
+
+
+/* -------------------
+      Site Colors
+-------------------- */
+@black: @_black;
+@blue: @_fixtBlue;
+@green: @_lightGreen;
+
+@selectedTextColor: @_black;

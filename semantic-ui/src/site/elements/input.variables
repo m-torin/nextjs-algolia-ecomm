@@ -1,0 +1,25 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+@import '../custom.less';
+
+/* -------------------
+       Element
+-------------------- */
+
+@borderWidth: 2px;
+@borderColor: @_lightGreyBlue;
+
+
+/* -------------------
+        States
+-------------------- */
+
+/* Placeholder */
+@placeholderColor: @inputPlaceholderColor;
+@placeholderFocusColor: @inputPlaceholderFocusColor;
+
+/* Focus */
+@focusColor: @_black;
+
+@focusBorderColor: red;

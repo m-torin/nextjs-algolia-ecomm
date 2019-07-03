@@ -1,0 +1,17 @@
+/*******************************
+         Site Overrides
+*******************************/
+@import '../custom.less';
+
+/* stylelint-disable property-no-vendor-prefix */
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* stylelint-enable */

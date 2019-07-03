@@ -1,0 +1,16 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+@import '../custom.less';
+
+/* -------------------
+       Elements
+-------------------- */
+
+/* Form Label */
+@labelFontSize: @relativeMedium;
+@labelFontWeight: 600;
+
+/* Input */
+@inputBorder: 2px solid @_lightGreyBlue;
+@inputColor: @black;

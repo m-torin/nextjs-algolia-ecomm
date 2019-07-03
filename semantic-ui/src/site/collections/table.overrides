@@ -1,0 +1,34 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+.ui.celled.very.basic.table {
+  th:first-of-type,
+  td:first-of-type {
+    padding-left: 15px;
+  }
+
+  th:last-of-type,
+  td:last-of-type {
+    padding-right: 15px;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0 0 0 15px;
+  }
+
+  .inlineTableIcon {
+    display: none;
+    float: right;
+  }
+
+  tbody tr:focus,
+  tbody tr:hover,
+  tbody tr td:focus,
+  tbody tr td:hover {
+    .inlineTableIcon {
+      display: block;
+    }
+  }
+}

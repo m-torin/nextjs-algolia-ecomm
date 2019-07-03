@@ -1,0 +1,52 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+@import '../custom.less';
+
+/* -------------------
+       Element
+-------------------- */
+
+/* Button */
+@backgroundImage: linear-gradient(180deg,@white,@_lightWhite);
+
+/* Text */
+@textColor: @_textColor;
+
+/* Box Shadow */
+@boxShadow: 1px 1px 2px 0 @_boxShadowColor;
+
+
+/* -------------------
+        States
+-------------------- */
+
+/* Hovered */
+@hoverColor: @white;
+@hoverBackgroundColor: @_midBlue;
+@hoverBackgroundImage: inherit;
+
+/* Pressed Down or Active */
+@downBackgroundColor: #fff;
+@downBackgroundImage: inherit;
+@downBoxShadow: 0 0 0 0 transparent, inset 0 2px 1px 0 rgba(99, 115, 129, 0.1), inset 0 2px 4px 0 rgba(99, 115, 129, 0.3);
+@pressedTextColor: #00a8ff;
+
+@basicGroupBorder: none;
+
+/* Focused */
+@focusColor: @_fixtBlue;
+
+
+/* -------------------
+        Types
+-------------------- */
+
+/* Or */
+@orBoxShadow: @boxShadow;
+
+@orBackgroundColor: #F4F6F8;
+@orTextShadow: @invertedTextShadow;
+@orTextStyle: @normal;
+@orTextWeight: @bold;
+@orTextColor: rgba(0, 0, 0, 0.6);

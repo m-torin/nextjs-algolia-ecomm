@@ -1,0 +1,8 @@
+/*******************************
+         Site Overrides
+*******************************/
+@import '../custom.less';
+
+.ui.form .wide.field .ui.dropdown {
+  min-width: initial;
+}

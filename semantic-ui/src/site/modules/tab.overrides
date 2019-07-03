@@ -1,0 +1,7 @@
+/*******************************
+        User Overrides
+*******************************/
+
+.fluidTabs .ui.segment.tab {
+  padding: 0;
+}

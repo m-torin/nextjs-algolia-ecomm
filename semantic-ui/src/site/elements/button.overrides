@@ -1,0 +1,36 @@
+/*******************************
+         Site Overrides
+*******************************/
+@import '../custom.less';
+
+
+.button.hoverColor {
+  &.green,
+  &.red {
+    background: linear-gradient(180deg, @white, @_lightWhite);
+    color: @_textColor;
+  }
+
+  &.green:hover,
+  &.green:focus {
+    background: @green;
+  }
+
+  &.red:hover,
+  &.red:focus {
+    background: @red;
+  }
+}
+
+.hoverRed {
+  &:hover,
+  &:focus {
+    background: rgb(244, 67, 54) !important;
+    color: #fff !important;
+  }
+
+  &:active {
+    background: inherit !important;
+    color: rgb(244, 67, 54) !important;
+  }
+}

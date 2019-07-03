@@ -1,0 +1,6 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+@import '../custom.less';
+
+@selectionBorder: 2px solid @_lightGreyBlue;

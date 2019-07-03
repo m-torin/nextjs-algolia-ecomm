@@ -1,0 +1,8 @@
+{
+  "linters": {
+    "pages/**/*.js": ["yarn lint:js", "git add"],
+    "semantic-ui/src/site/**/*.{overrides, variables}": ["yarn lint:semantic", "git add"],
+    "src/**/*.js": ["yarn lint:js", "git add"],
+    "src/**/*.scss": ["yarn lint:styles", "git add"]
+  }
+}

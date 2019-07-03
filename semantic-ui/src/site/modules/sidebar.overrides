@@ -1,0 +1,97 @@
+/*******************************
+         Site Overrides
+*******************************/
+@import '../custom.less';
+
+.pushable {
+  height: calc(100vh - 64px);
+}
+
+.pusher {
+  padding-left: 42px;
+}
+
+/* Disable rule for sidebar experiments */
+
+/* stylelint-disable no-descending-specificity */
+.ui.visible.left.sidebar {
+  width: 42px;
+  box-shadow: none;
+
+  .sidebar {
+    padding-top: 25px;
+  }
+
+  .ui.basic.button {
+    height: 42px;
+    font-size: 0 !important;
+    border-radius: 0;
+    transition: none;
+
+    .icon {
+      font-size: 16px;
+    }
+
+    &:hover,
+    &:focus {
+      background: @_midBlue !important;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12) !important;
+      color: @white !important;
+      font-size: 16px !important;
+      font-weight: 600;
+      padding-left: 60px !important;
+      width: 230px !important;
+    }
+  }
+
+  &:hover,
+  &:focus {
+    overflow: initial !important;
+  }
+}
+
+
+/* Experiment: Compact & Dark */
+.compactDark.ui.visible.sidebar {
+  .sidebar {
+    background: @navBg !important;
+    border-right: 1px solid @_lightGreyBlue;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    margin-bottom: 10px;
+    border-bottom-right-radius: 20px !important;
+  }
+
+  .ui.basic.button {
+    background: @navBg !important;
+
+    &.disabled {
+      opacity: 1 !important;
+    }
+  }
+
+  .ui.basic.button:not( .disabled ) {
+    color: @logoFill !important;
+
+    &:hover,
+    &:focus {
+      color: @white !important;
+    }
+  }
+
+  .ui.basic.button.shortcutOptionsBtn {
+    border-bottom-right-radius: 20px !important;
+
+    &:hover,
+    &:focus {
+      border-bottom-right-radius: 0 !important;
+    }
+  }
+}
+
+
+/* Experiment: Tall & Light */
+.tallLight.ui.visible.sidebar {
+  border-right: 1px solid #dfe3e8;
+}
+
+/* stylelint-enable */

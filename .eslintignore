@@ -1,0 +1,10 @@
+.next/
+**/*.test.js
+jest.config.js
+jest.setup.js
+next.config.js
+nginx/
+redis/
+semantic-ui/
+src/css/
+src/utils/segment.js

@@ -1,0 +1,61 @@
+extends: stylelint-config-standard
+plugins: [
+  stylelint-a11y,
+  stylelint-scss,
+]
+rules:
+  # All rules: https://stylelint.io/user-guide/rules/
+  #
+  # Everything else
+  at-rule-no-unknown: null
+  declaration-property-value-blacklist:
+    /^border/: [none]
+  function-url-quotes: always
+  media-feature-name-no-unknown: [true, {ignoreMediaFeatureNames: [/^@/]}] # allow variables as media queries
+  no-duplicate-selectors: true
+  selector-pseudo-class-no-unknown: [true, {ignorePseudoClasses: [/regex/, global]}]
+  string-quotes: single
+  # Colors
+  color-hex-case: lower
+  color-hex-length: short
+  color-named: never
+  # Sass
+  scss/at-else-closing-brace-newline-after: always-last-in-chain
+  scss/at-else-closing-brace-space-after: always-intermediate
+  scss/at-else-empty-line-before: never
+  scss/at-if-closing-brace-newline-after: always-last-in-chain
+  scss/at-if-closing-brace-space-after: always-intermediate
+  # Spacing
+  comment-empty-line-before: always
+  comment-whitespace-inside: always
+  declaration-colon-space-after: always
+  declaration-colon-space-before: never
+  max-empty-lines: 2
+  max-nesting-depth: [3, {ignore: [blockless-at-rules, pseudo-classes]}]
+  media-feature-parentheses-space-inside: never
+  media-feature-range-operator-space-after: always
+  media-feature-range-operator-space-before: always
+  no-eol-whitespace: null
+  number-leading-zero: always
+  selector-attribute-operator-space-after: always
+  selector-attribute-operator-space-before: always
+  selector-attribute-quotes: always
+  selector-combinator-space-after: always
+  selector-pseudo-class-parentheses-space-inside: always
+  # Typography
+  font-family-name-quotes: always-where-recommended
+  font-weight-notation: numeric
+  # Vendor prefixing
+  at-rule-no-vendor-prefix: true
+  media-feature-name-no-vendor-prefix: true
+  property-no-vendor-prefix: true
+  selector-no-vendor-prefix: true
+  value-no-vendor-prefix: true
+  # A11y
+  a11y/media-prefers-reduced-motion: null
+  a11y/no-obsolete-attribute: [true, { severity: warning }]
+  a11y/no-obsolete-element: [true, { severity: warning }]
+  a11y/no-outline-none: true
+  a11y/no-spread-text: [true, { severity: warning }]
+  a11y/no-text-align-justify: [true, { severity: warning }]
+  a11y/selector-pseudo-class-focus: true

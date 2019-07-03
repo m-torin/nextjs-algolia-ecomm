@@ -1,0 +1,16 @@
+/*******************************
+        User Overrides
+*******************************/
+@import '../custom.less';
+
+.ui.selection.active.dropdown .menu {
+  width: calc(100% + 4px) !important;
+  margin-left: -2px;
+  border-left: 2px solid @_altBlue !important;
+  border-right: 2px solid @_altBlue !important;
+  border-bottom: 2px solid @_altBlue !important;
+}
+
+.ui.menu .ui.selection.dropdown {
+  border: 0;
+}
