@@ -25,7 +25,7 @@
     "test:watch": "jest --watch",
     "test": "jest && yarn test:selenium",
     "snyk-protect": "snyk protect",
-    "prepublish": "yarn snyk-protect"
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": "10.x"
