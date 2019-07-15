@@ -86,7 +86,7 @@
     "nodemon": "^1.19.1",
     "selenium-side-runner": "^3.11.0",
     "stylelint": "^10.1.0",
-    "stylelint-a11y": "^1.2.0",
+    "stylelint-a11y": "^1.2.1",
     "stylelint-config-standard": "^18.3.0",
     "stylelint-order": "^3.0.0",
     "stylelint-scss": "^3.8.0"

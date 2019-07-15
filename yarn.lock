@@ -10238,10 +10238,10 @@ styled-jsx@3.2.1:
     stylis "3.5.4"
     stylis-rule-sheet "0.0.10"
 
-stylelint-a11y@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/stylelint-a11y/-/stylelint-a11y-1.2.0.tgz#f7b852140f6f76a4e4a75ff768baf5e88f327c26"
-  integrity sha512-yMy0ctlRm5NnH26j30r45tMUwo4KR8y8/mGQQp+SBxGjqyU2J3wDcM7LcAUM2TnX45OK+FyUvo5klaWk6kls4w==
+stylelint-a11y@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/stylelint-a11y/-/stylelint-a11y-1.2.1.tgz#fe5ba2ac2ea62fe26b148d583c2b4d65e6351466"
+  integrity sha512-yfH6ibVkfAlAt7J5ExrzpBPFCSWDTxBL9svdFZ6BfGF5hRmFgTS03x4r/rBAAaNDpgKE32CQz5qcLbgOLzuxfA==
 
 stylelint-config-recommended@^2.2.0:
   version "2.2.0"
