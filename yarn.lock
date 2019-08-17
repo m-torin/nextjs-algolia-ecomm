@@ -1046,6 +1046,11 @@
   dependencies:
     "@ndhoule/map" "^2.0.1"
 
+"@seleniumhq/side-utils@^3.12.1":
+  version "3.12.1"
+  resolved "https://registry.yarnpkg.com/@seleniumhq/side-utils/-/side-utils-3.12.1.tgz#a6f7c5937581b38b86a708e0d0b31b47405a4dfe"
+  integrity sha512-tp+N5BvqE0r46MUUHRb16m6WoirWBCevzt67IP+W5AxgBSvG6k4WcA4mpdrIbKbjBcwV1Vsy1Zh8sBNRxjxA2Q==
+
 "@semantic-ui-react/event-stack@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@semantic-ui-react/event-stack/-/event-stack-3.1.0.tgz#aadbe4a28b0dd7703c5f451640d0fefe66dd9208"
@@ -6358,11 +6363,6 @@ js-levenshtein@^1.1.3:
   resolved "https://registry.yarnpkg.com/js-levenshtein/-/js-levenshtein-1.1.6.tgz#c6cee58eb3550372df8deb85fad5ce66ce01d59d"
   integrity sha512-X2BB11YZtrRqY4EnQcLX5Rh373zbK4alC1FW7D7MBhL2gtcC17cTnr6DmfHZeS0s2rTHjUTMMHfG7gO8SSdw+g==
 
-js-string-escape@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/js-string-escape/-/js-string-escape-1.0.1.tgz#e2625badbc0d67c7533e9edc1068c587ae4137ef"
-  integrity sha1-4mJbrbwNZ8dTPp7cEGjFh65BN+8=
-
 js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
@@ -9375,10 +9375,10 @@ secure-keys@^1.0.0:
   resolved "https://registry.yarnpkg.com/secure-keys/-/secure-keys-1.0.0.tgz#f0c82d98a3b139a8776a8808050b824431087fca"
   integrity sha1-8MgtmKOxOah3aogIBQuCRDEIf8o=
 
-selenium-side-runner@^3.11.0:
-  version "3.11.0"
-  resolved "https://registry.yarnpkg.com/selenium-side-runner/-/selenium-side-runner-3.11.0.tgz#4ce9579233054a99fee5d921ed2af84abb0817a6"
-  integrity sha512-h6yYP2ymFl2dZIWXpG2ajXgI2kKl5aJ51LPeMTcr2L/O76VrnG9U1BJj0R5u1fJPxPgJJkJHgUBPs/5XXX3JDw==
+selenium-side-runner@^3.12.1:
+  version "3.12.1"
+  resolved "https://registry.yarnpkg.com/selenium-side-runner/-/selenium-side-runner-3.12.1.tgz#930e59909dd20a4dd4e46930c27cf2f47639c461"
+  integrity sha512-+nS1/R77uovqf8vcL1YkAuo/3Vw4ldTHvFVS9yY4BaMTfyZYV5vAzZt4HmAtGg8+0v69iptu78NU2sRHxhRETA==
   dependencies:
     commander "^2.12.2"
     glob "^7.1.2"
@@ -9389,7 +9389,7 @@ selenium-side-runner@^3.11.0:
     js-yaml "^3.13.1"
     rimraf "^2.6.2"
     selenium-webdriver "4.0.0-alpha.4"
-    selianize "^3.8.0"
+    selianize "^3.12.1"
     semver "^5.5.1"
     winston "^2.4.0"
 
@@ -9403,12 +9403,12 @@ selenium-webdriver@4.0.0-alpha.4:
     tmp "0.0.30"
     xml2js "^0.4.19"
 
-selianize@^3.8.0:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/selianize/-/selianize-3.8.0.tgz#935736c3e4823cab6442c25c16eaff00f0205573"
-  integrity sha512-Q/HhsWfMHPnF4KlU8uZD/mZeXzG/Vj14xrrQWWryL+DFbmyXpnQC+FxzxLpGUzWwA9eBsFAf3LPS7N+s3KY2BA==
+selianize@^3.12.1:
+  version "3.12.1"
+  resolved "https://registry.yarnpkg.com/selianize/-/selianize-3.12.1.tgz#7b405cc0736372f16bc6f0d8fa72e5e123ae45ff"
+  integrity sha512-8MgrDqTtGPWzQ04uhHCdZGIDVRfRHdTVm/coAIaMJHy4E3zEVAv7KPRudb856I8KujvhEpdXDnDsZp+P0kMp+A==
   dependencies:
-    js-string-escape "^1.0.1"
+    "@seleniumhq/side-utils" "^3.12.1"
 
 semantic-ui-react@^0.87.3:
   version "0.87.3"
