@@ -1046,6 +1046,19 @@
   dependencies:
     "@ndhoule/map" "^2.0.1"
 
+"@seleniumhq/side-model@^3.12.2":
+  version "3.12.2"
+  resolved "https://registry.yarnpkg.com/@seleniumhq/side-model/-/side-model-3.12.2.tgz#2439ff45e827f557eaa0441c3bdccb4aab8d0276"
+  integrity sha512-eaZ+oBcmbPbtgKS3w7qPDZ5j1OATK31+WS8foT3NI4RJ+b8dJdBWAQyBbAwzOOIYSnsfbkhSeA0tXnplHC7P7A==
+
+"@seleniumhq/side-utils@^3.12.2":
+  version "3.12.2"
+  resolved "https://registry.yarnpkg.com/@seleniumhq/side-utils/-/side-utils-3.12.2.tgz#964c3559e95a8cabafd66feb932aea12ab07f2c1"
+  integrity sha512-If6A2/7rUvi6cRn7qnjWEi9sbyrpGD2Igwgmn0TGldb4vGdl0N52GwuKUwftqJUgCuJ0pgJLSzxExg4zNMsy7w==
+  dependencies:
+    "@seleniumhq/side-model" "^3.12.2"
+    ua-parser-js "^0.7.17"
+
 "@semantic-ui-react/event-stack@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@semantic-ui-react/event-stack/-/event-stack-3.1.0.tgz#aadbe4a28b0dd7703c5f451640d0fefe66dd9208"
@@ -6358,11 +6371,6 @@ js-levenshtein@^1.1.3:
   resolved "https://registry.yarnpkg.com/js-levenshtein/-/js-levenshtein-1.1.6.tgz#c6cee58eb3550372df8deb85fad5ce66ce01d59d"
   integrity sha512-X2BB11YZtrRqY4EnQcLX5Rh373zbK4alC1FW7D7MBhL2gtcC17cTnr6DmfHZeS0s2rTHjUTMMHfG7gO8SSdw+g==
 
-js-string-escape@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/js-string-escape/-/js-string-escape-1.0.1.tgz#e2625badbc0d67c7533e9edc1068c587ae4137ef"
-  integrity sha1-4mJbrbwNZ8dTPp7cEGjFh65BN+8=
-
 js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
@@ -9375,10 +9383,10 @@ secure-keys@^1.0.0:
   resolved "https://registry.yarnpkg.com/secure-keys/-/secure-keys-1.0.0.tgz#f0c82d98a3b139a8776a8808050b824431087fca"
   integrity sha1-8MgtmKOxOah3aogIBQuCRDEIf8o=
 
-selenium-side-runner@^3.11.0:
-  version "3.11.0"
-  resolved "https://registry.yarnpkg.com/selenium-side-runner/-/selenium-side-runner-3.11.0.tgz#4ce9579233054a99fee5d921ed2af84abb0817a6"
-  integrity sha512-h6yYP2ymFl2dZIWXpG2ajXgI2kKl5aJ51LPeMTcr2L/O76VrnG9U1BJj0R5u1fJPxPgJJkJHgUBPs/5XXX3JDw==
+selenium-side-runner@^3.12.2:
+  version "3.12.2"
+  resolved "https://registry.yarnpkg.com/selenium-side-runner/-/selenium-side-runner-3.12.2.tgz#12383ec70f3cd5a79ea1a26f8f449c7b56028fc3"
+  integrity sha512-O2/KKYjt4yYQc1R5kFMJGiKpTK44LvdWaH1H9oPIkeyA1EIl4vvovQ0un59pLoGbQ/51PM7X2eznPBpS+yon/A==
   dependencies:
     commander "^2.12.2"
     glob "^7.1.2"
@@ -9389,7 +9397,7 @@ selenium-side-runner@^3.11.0:
     js-yaml "^3.13.1"
     rimraf "^2.6.2"
     selenium-webdriver "4.0.0-alpha.4"
-    selianize "^3.8.0"
+    selianize "^3.12.2"
     semver "^5.5.1"
     winston "^2.4.0"
 
@@ -9403,12 +9411,13 @@ selenium-webdriver@4.0.0-alpha.4:
     tmp "0.0.30"
     xml2js "^0.4.19"
 
-selianize@^3.8.0:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/selianize/-/selianize-3.8.0.tgz#935736c3e4823cab6442c25c16eaff00f0205573"
-  integrity sha512-Q/HhsWfMHPnF4KlU8uZD/mZeXzG/Vj14xrrQWWryL+DFbmyXpnQC+FxzxLpGUzWwA9eBsFAf3LPS7N+s3KY2BA==
+selianize@^3.12.2:
+  version "3.12.2"
+  resolved "https://registry.yarnpkg.com/selianize/-/selianize-3.12.2.tgz#0fbfe4775b2f127840b84e4098e35c60f7b0667e"
+  integrity sha512-+Errxp/Zcywu3EG2xIc2aQcZ9Kqcch1LOZlIH/gjKTkhFeJHC/NM7tbJKPVo0aKosfMvsNXLiezlobXVb9kmjw==
   dependencies:
-    js-string-escape "^1.0.1"
+    "@seleniumhq/side-model" "^3.12.2"
+    "@seleniumhq/side-utils" "^3.12.2"
 
 semantic-ui-react@^0.87.3:
   version "0.87.3"
@@ -10756,7 +10765,7 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-ua-parser-js@^0.7.18:
+ua-parser-js@^0.7.17, ua-parser-js@^0.7.18:
   version "0.7.20"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.20.tgz#7527178b82f6a62a0f243d1f94fd30e3e3c21098"
   integrity sha512-8OaIKfzL5cpx8eCMAhhvTlft8GYF8b2eQr6JkCyVdrgjcytyOmPCXrqXFcUnhonRpLlh5yxEZVohm6mzaowUOw==
