@@ -1046,6 +1046,19 @@
   dependencies:
     "@ndhoule/map" "^2.0.1"
 
+"@seleniumhq/side-model@^3.15.0":
+  version "3.15.0"
+  resolved "https://registry.yarnpkg.com/@seleniumhq/side-model/-/side-model-3.15.0.tgz#a177794a41875da08e52dd53bff40d8b6ceacb09"
+  integrity sha512-8YJr6/+mcwfwa3fJIAKYmmJ3T7hJGXJuFQ12YMYqg9IRIpmUIv75oLxZWQb5dD9j5MxNLdPQoQENVmrDgs5ilw==
+
+"@seleniumhq/side-utils@^3.15.0":
+  version "3.15.0"
+  resolved "https://registry.yarnpkg.com/@seleniumhq/side-utils/-/side-utils-3.15.0.tgz#06d5599eb6fd0f8e87a187402d9e0848d946390b"
+  integrity sha512-zK2eU4i5eYjwFlkLWd0F5mISiKEuxt06upUg8h4TY9mKV5nYIlrdruYUh8yC91wG3kSZJP/FLAs11gIN/IdTYA==
+  dependencies:
+    "@seleniumhq/side-model" "^3.15.0"
+    ua-parser-js "^0.7.17"
+
 "@semantic-ui-react/event-stack@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@semantic-ui-react/event-stack/-/event-stack-3.1.0.tgz#aadbe4a28b0dd7703c5f451640d0fefe66dd9208"
@@ -6087,10 +6100,10 @@ jest-environment-node@^24.8.0:
     jest-mock "^24.8.0"
     jest-util "^24.8.0"
 
-jest-environment-selenium@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/jest-environment-selenium/-/jest-environment-selenium-2.1.1.tgz#5f50bbc05ffc6b7d1e1c2d602fa912496d068250"
-  integrity sha512-4qThDy2Tpew8WofRyfFSptLOo62IdW+dFWCDcF4qOZ/70mrsPzXkyOYT1Njm7rigjRGkwEsYSaYMoH6fp94b2Q==
+jest-environment-selenium@2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/jest-environment-selenium/-/jest-environment-selenium-2.1.2.tgz#8d9c2c9849e81189146e4e54153b5be2a5582627"
+  integrity sha512-eznAfmOFGgdflVgkEBT7P49Belbb8ijskRYwtufXA9eJ7AwX9HiQuQzEkddUDg+uRuoY2ErJXoKjMbYYX68Y7g==
 
 jest-get-type@^24.8.0:
   version "24.8.0"
@@ -6357,11 +6370,6 @@ js-levenshtein@^1.1.3:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/js-levenshtein/-/js-levenshtein-1.1.6.tgz#c6cee58eb3550372df8deb85fad5ce66ce01d59d"
   integrity sha512-X2BB11YZtrRqY4EnQcLX5Rh373zbK4alC1FW7D7MBhL2gtcC17cTnr6DmfHZeS0s2rTHjUTMMHfG7gO8SSdw+g==
-
-js-string-escape@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/js-string-escape/-/js-string-escape-1.0.1.tgz#e2625badbc0d67c7533e9edc1068c587ae4137ef"
-  integrity sha1-4mJbrbwNZ8dTPp7cEGjFh65BN+8=
 
 js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "3.0.2"
@@ -9375,21 +9383,21 @@ secure-keys@^1.0.0:
   resolved "https://registry.yarnpkg.com/secure-keys/-/secure-keys-1.0.0.tgz#f0c82d98a3b139a8776a8808050b824431087fca"
   integrity sha1-8MgtmKOxOah3aogIBQuCRDEIf8o=
 
-selenium-side-runner@^3.11.0:
-  version "3.11.0"
-  resolved "https://registry.yarnpkg.com/selenium-side-runner/-/selenium-side-runner-3.11.0.tgz#4ce9579233054a99fee5d921ed2af84abb0817a6"
-  integrity sha512-h6yYP2ymFl2dZIWXpG2ajXgI2kKl5aJ51LPeMTcr2L/O76VrnG9U1BJj0R5u1fJPxPgJJkJHgUBPs/5XXX3JDw==
+selenium-side-runner@^3.15.0:
+  version "3.15.0"
+  resolved "https://registry.yarnpkg.com/selenium-side-runner/-/selenium-side-runner-3.15.0.tgz#b2f96b4941e20dca9a208a7d05fc0ee262a544cb"
+  integrity sha512-SX1hMhYRvDCc5Oi8P7Kn2XVuJMU9q0EwpfYqoxBBK0wonYPuC3ubWQfQct9fPEFJL0iR/NkxoIZHxBbw4Cwd4Q==
   dependencies:
     commander "^2.12.2"
     glob "^7.1.2"
     global-npm "^0.3.0"
     jest-cli "24.7.1"
-    jest-environment-selenium "2.1.1"
+    jest-environment-selenium "2.1.2"
     js-beautify "^1.7.5"
     js-yaml "^3.13.1"
     rimraf "^2.6.2"
     selenium-webdriver "4.0.0-alpha.4"
-    selianize "^3.8.0"
+    selianize "^3.15.0"
     semver "^5.5.1"
     winston "^2.4.0"
 
@@ -9403,12 +9411,13 @@ selenium-webdriver@4.0.0-alpha.4:
     tmp "0.0.30"
     xml2js "^0.4.19"
 
-selianize@^3.8.0:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/selianize/-/selianize-3.8.0.tgz#935736c3e4823cab6442c25c16eaff00f0205573"
-  integrity sha512-Q/HhsWfMHPnF4KlU8uZD/mZeXzG/Vj14xrrQWWryL+DFbmyXpnQC+FxzxLpGUzWwA9eBsFAf3LPS7N+s3KY2BA==
+selianize@^3.15.0:
+  version "3.15.0"
+  resolved "https://registry.yarnpkg.com/selianize/-/selianize-3.15.0.tgz#49322066350399e1fa9ff807cfdc0ad35f6e5c76"
+  integrity sha512-ustSe+Ml/lCVDZP6s+CFbRHsV08qt+Z0ppuq7dJkLoFTo660kB8IjWZ6kNQ0hYqrKVQhTaCfQGoMAHy9Hn/XtQ==
   dependencies:
-    js-string-escape "^1.0.1"
+    "@seleniumhq/side-model" "^3.15.0"
+    "@seleniumhq/side-utils" "^3.15.0"
 
 semantic-ui-react@^0.87.3:
   version "0.87.3"
@@ -10756,7 +10765,7 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-ua-parser-js@^0.7.18:
+ua-parser-js@^0.7.17, ua-parser-js@^0.7.18:
   version "0.7.20"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.20.tgz#7527178b82f6a62a0f243d1f94fd30e3e3c21098"
   integrity sha512-8OaIKfzL5cpx8eCMAhhvTlft8GYF8b2eQr6JkCyVdrgjcytyOmPCXrqXFcUnhonRpLlh5yxEZVohm6mzaowUOw==
