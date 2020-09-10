@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@segment/snippet": "^4.4.0",
-    "@sentry/browser": "^5.4.3",
+    "@sentry/browser": "^5.23.0",
     "@yolkai/next-routes": "^3.0.0",
     "@zeit/next-bundle-analyzer": "^0.1.2",
     "@zeit/next-css": "^1.0.1",
