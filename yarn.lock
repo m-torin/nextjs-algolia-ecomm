@@ -3947,10 +3947,10 @@ eslint-plugin-simple-import-sort@^4.0.0:
   dependencies:
     validate-npm-package-name "^3.0.0"
 
-eslint-plugin-you-dont-need-lodash-underscore@^6.5.0:
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-you-dont-need-lodash-underscore/-/eslint-plugin-you-dont-need-lodash-underscore-6.5.0.tgz#c8893157fe477f8ccc9bf6e3e4577702f7333116"
-  integrity sha512-68bj1UlZtCLmu1Mp0GaRgIBNFJyHJChfwphY9fBk60fBkNPH/xnbEXhbFsk7CBaZGMqPkHhYjT1iICQyZAdK5Q==
+eslint-plugin-you-dont-need-lodash-underscore@^6.11.0:
+  version "6.11.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-you-dont-need-lodash-underscore/-/eslint-plugin-you-dont-need-lodash-underscore-6.11.0.tgz#56ac259495cdee7b778165660e89dd1513dba0ac"
+  integrity sha512-cIprUmcACzxBg5rUrrCMbyAI3O0jYsB80+9PGq8XsvRTrxDSIzLitNhBetu9erb3TDxyW6OPseyOZzfQdR8oow==
   dependencies:
     kebab-case "^1.0.0"
 
